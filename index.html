@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css" >
+        <script src="https://kit.fontawesome.com/b7eaf29c39.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+                </nav>
+                <div class="header-text">
+                    <p>Student</p>
+                    <h1>Hi, I'm <span>Vikas</span> from University of Missouri<br>Kansas City</h1>
+                </div>
+            </div>
+        </div>
+<!------------------- about ---------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Iam a student from Universiy of Missouri Kansas City graduating in December 2024. Iam interested in full stack technologies
+                           like front-end, back-end. Iam very passionate about these technologies and I love working with these technologies which gives 
+                           me satisfaction and happy for my work. I like to design the dynamic web pages. Moreover, apart from studies, I like playing badminton,
+                           volley-ball, listening to songs and going outings in weekends. 
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web - Page Development</span><br>Designing Web Pages</li>
+                                <li><span>HTML, CSS</span><br>Styling the web pages to look beautiful</li>
+                                <li><span>SQL</span><br>Creating database and storing information</li>
+                                <li><span>Java</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Internship 5th Sep 2021 - 5th Nov 2021</span><br>This intern gave hands on experience in front end technologies
+                                    including HTML, CSS and Javascript and developing static websites. I gain experience in linking the excel sheet with webpage
+                                    where whatever the details entered in webpage will directly
+                                    stored in an excel sheet.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - 2024</span><br>MS from UMKC</li>
+                                <li><span>2019 - 2023</span><br>B.Tech from GITAM Hyderabad</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-------------- Technologies ----------------->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Technologies</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Website development refers to the building and 
+                           maintenance of a website’s structure, and involves intricate coding systems that ensure the website 
+                           functions properly.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <h2>CSS Design</h2>
+                        <p>HTML or HyperText Markup Language, is a coding language used to create the front end of websites. 
+                           It is written to include the structure of a web page and carried out by web browsers into the websites that we see online.
+                           CSS or Cascading Style Sheets is a programming design language that includes all relevant information relating to a webpage’s display. 
+                           CSS works with HTML to design the style and formatting of a website or page, including the layout, fonts, padding, and more.</p>
+                        <a href="#">Learn More</a>        
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-database"></i>
+                        <h2>SQL </h2>
+                        <p>SQL or Structured Query Language is a critical tool for data professionals. 
+                           It is undoubtedly the most important language for getting a job in the field of data analysis or data sciences.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!----------- Platforms ----------------->
+
+        <div id="portfolio">
+            <div class="container">
+                    <h2 class="sub-title">Platforms</h2>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/linkedin.jpeg">
+                            <div class="layer">
+                                <h3>Linkedin</h3>
+                                <p>Directs you to the talented people around the world.</p>
+                                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/github.jpeg">
+                            <div class="layer">
+                                <h3>Github</h3>
+                                <p>You can the projects which you have done</p>
+                                <a href="https://www.github.com/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+
+<!---------- Contact ------------>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>reddyvikas649@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>(+1) 913-238 4895</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100091185923581" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/vikas-reddy-chinnakistanolla-367a89273/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/solo_hearted111/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://x.com/Vikas2035819" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                        <a href="images/CV.pdf" target="_blank" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Vikas. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials.</p>
+
+            </div>
+
+        </div>
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+
+                for(tablink of tablinks){
+                    tablink.classList.remove('active-link');
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove('active-tab');
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbz5Q5AzBRxgik9tzCHIN51tGz_Ab2ImqGdBS25dYGATMgY3xWV21wNYVFrgXnNxzJSk/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
